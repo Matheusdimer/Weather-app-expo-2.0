@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Weather-app-expo",
+    "name": "Weather App",
     "slug": "Weather-app-expo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0496c7"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,10 +23,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.dimer.weather_app",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#0496c7"
     }
-  }
+  }  
 }
